@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* TypeA-1column css */
+
+/* body
+------------------------------*/
+
+
+.logo-img {
+  width: 10vw;
+}
+
+/* wrapper
+------------------------------*/
+.wrapper {
+  margin: 0 auto;
+  
+}
+
+/* header
+------------------------------*/
+header {
+  padding: 10px 20px 10px;
+  background-color: #fff;
+}
+
+/* nav
+------------------------------*/
+nav {
+  width: 700px;
+  height: 30px;
+  float: right;
+  margin-top: 10px;
+}
+
+nav ul li {
+  width: 20%;
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  line-height: 30px;
+  color: #999;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid #999;
+}
+
+nav ul li:last-child a {
+  border-right: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+/* main-visual
+------------------------------*/
+.kv-wrapper{
+  background-image: url("../images/kv.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.kv-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-visual {
+  height: auto;
+  width: 20vw;
+  min-width: 200px;
+}
+
+
+/* section
+------------------------------*/
+section {
+  margin-bottom: 20px
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 10px
+}
+
+/* footer
+------------------------------*/
+footer {
+  text-align: center;
+  line-height: 100px;
+  background-color: #999;
+}
+
+small {
+  color: #fff;
+}
+
+.section-title-detail {
+  text-align: center;
+  margin: 0 auto 30px auto;
+  border-bottom: 2px solid #000;
+  width: 10vw;
+}
+
+.section-inner {
+  padding: 20px 10vw;
+}
+
+/* news-wrapper
+------------------------------*/
+.news-wrapper {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.news-title {
+  padding: 8px;
+  display: flex;
+  text-decoration: none;
+}
+
+.news-date {
+  color: #999;
+  margin-right: 50px;
+}
+
+.news-title {
+  color: darkgoldenrod;
+}
+
+/* about-wrapper
+------------------------------*/
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  background: #e9eaea;
+  padding: 30px 0;
+}
+
+/* cast-wrapper
+------------------------------*/
+.cast {
+  background: #e9eaea;
+  padding: 30px 0;
+  margin-bottom: 0px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: aquamarine;
+  cursor: pointer;
+  width: 30%;
+  border: 1px solid #e9eaea;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.cast-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.cast-name {
+  text-align: center;
+}
+
+.work {
+  margin: 0 auto;
+}
+
+.cast-name {
+  margin: 5px 0;
+}
+
+.work th,
+.work td {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.work th {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.work td {
+  margin-bottom: 10px;
+}
+
+/* ABOUTページCSS */
+.top-text {
+  text-align: center;
+}
+
+.about-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.about-img img {
+  width: 30vw;
+}
+
+.about-detail {
+  width: 45vw;
+}
+.about-detail h3 {
+  margin: 20px 0;
+}
+
+.section-inner:nth-child(even) {
+  background-color: #e9eaea;
+}
+
+
+/* 利用方法ページ */
+.section-title-attention {
+  text-align: center;
+    margin: 0 auto 30px auto;
+    border-bottom: 2px solid #000;
+    width: 30vw;
+}
+
+/* リストデザイン003 */
+.attention-container {
+  background: whitesmoke;
+  padding: 0 0.5em;
+  position: relative;
+}
+
+.attention-container li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.5em;
+  border-bottom: 2px solid white;
+  list-style-type: none !important;
+}
+
+.attention-container li::before {
+  content: '▶︎';
+  padding: 0 5px;
+  color: #668ad8;
+}
+
+/* 料金システムCSS */
+
+/***　おしゃれテーブル4 マゼンダカラー　***/
+.howmatch {
+  align-items: center;
+  text-align: center;
+}
+
+.osare4-table {
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: separate;
+  border: none;
+  border-spacing: 0px 10px;
+}
+
+.osare4-table tbody td,
+.osare4-table tfoot td {
+  text-align: center;
+}
+
+/* 上部ヘッダー（背景：パステルカラー） */
+.osare4-table thead th {
+  color: #FFF;
+  font-weight: bold;
+  background: #668ad8;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* 上部ヘッダーの丸み */
+.osare4-table thead th:nth-child(2) {
+  border-radius: 10px 0 0 0;
+}
+
+.osare4-table thead th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.osare4-table th,
+.osare4-table td {
+  border: 0 none !important;
+  text-align: center;
+}
+
+/* １行ずつ色変更　不要なら削除 even:奇数行　odd:偶数行 */
+.osare4-table tr:nth-child(even) td {
+  background: #fff9fc;
+}
+
+.osare4-table tr:nth-child(odd) td {
+  background: #fff9ff;
+}
+
+/* ヘッダーセル先頭・ボディ項目・フッター項目 */
+.osare4-table tbody th,
+.osare4-table tfoot th,
+.osare4-table thead th:first-child {
+  background: none;
+  color: #666;
+  font-weight: bold;
+  line-height: 4.5em;
+}
